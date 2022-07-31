@@ -7,7 +7,12 @@ public class Teacher {
         System.out.println("Teacher name is: "+name);
     }
 }
-class Student extends Teacher{
+class B extends Teacher{
+    B(){
+         System.out.println(" Relation is education");
+       }
+}
+class Student extends B{
     Student()
     {
         String name1="Aditya";
